@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run tsc-build & react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "tsc": "tsc -p ./tsconfig.json",
+    "tsc-build": "tsc -p ./tsconfig.prod.json"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.19",
+    "@types/react": "^16.0.0",
+    "react-scripts-no-linting": "^1.0.11",
+    "typescript": "^2.4.2"
+  }
+}
